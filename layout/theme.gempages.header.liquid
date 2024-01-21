@@ -299,7 +299,7 @@
       <!--LayoutHub-Workspace-Start-->{{ content_for_layout }}<!--LayoutHub-Workspace-End-->
     </main>
 
-    {% sections 'footer-group' %}
+    
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
@@ -350,6 +350,6 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {%- render 'layouthub_footer' -%} 
+   
  </body>
 </html>
