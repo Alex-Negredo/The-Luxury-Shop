@@ -99,9 +99,13 @@
         "padding_bottom": 16
       }
     },
+    "gp_global_section_497095183448408969_wUHGR9": {
+      "type": "gp-global-section-497095183448408969",
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h1",
@@ -109,7 +113,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 5,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -126,139 +130,6 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "rich_text_wQytDN": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_fyUKhU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_e3Nha6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button_qYLQKa": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_fyUKhU",
-        "text_e3Nha6",
-        "button_qYLQKa"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "ss_feature_1_8tbjEa": {
-      "type": "ss-feature-1",
-      "blocks": {
-        "image_wWqhpN": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Free Shipping",
-            "feature_text": "Order today, receive tomorrow",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_4ppyQT": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Guaranteed Authenticity",
-            "feature_text": "Only 100% authentic items are put on sale",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_bxzptr": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Hassle-free exchange",
-            "feature_text": "Receive a slip for exchanges",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_zWHyfd": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Satisfaction Guaranteed",
-            "feature_text": "Customer satisfaction #1 priority",
-            "feature_url": "",
-            "hide_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_wWqhpN",
-        "image_4ppyQT",
-        "image_bxzptr",
-        "image_zWHyfd"
-      ],
-      "settings": {
-        "feature_row": 4,
-        "feature_row_mobile": 1,
-        "feature_gap": 20,
-        "feature_gap_mobile": 20,
-        "feature_padding_vertical": 0,
-        "feature_padding_horizontal": 0,
-        "feature_radius": 16,
-        "feature_border_thickness": 0,
-        "feature_shadow": false,
-        "feature_heading_custom": false,
-        "feature_heading_font": "josefin_sans_n4",
-        "feature_heading_size": 14,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 130,
-        "feature_heading_mt": 8,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 12,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 130,
-        "feature_text_mt": 4,
-        "feature_icon_size": 42,
-        "feature_icon_size_mobile": 42,
-        "feature_bg": "#ffffff",
-        "feature_border_color": "#000000",
-        "feature_shadow_color": "#000000",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#000000",
-        "feature_icon_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
       }
     },
     "image_with_text_pRYCD4": {
@@ -355,57 +226,51 @@
         "padding_bottom": 16
       }
     },
-    "multicolumn_4hNrwx": {
-      "type": "multicolumn",
+    "image_with_text_eAVxAg": {
+      "type": "image-with-text",
       "blocks": {
-        "column_bgXPHz": {
-          "type": "column",
+        "heading_MWLbhd": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "column_pjRhBp": {
-          "type": "column",
+        "text_eQjjgp": {
+          "type": "text",
           "settings": {
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text_style": "body"
           }
         },
-        "column_Xqft8B": {
-          "type": "column",
+        "button_8f3E3F": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "column_bgXPHz",
-        "column_pjRhBp",
-        "column_Xqft8B"
+        "heading_MWLbhd",
+        "text_eQjjgp",
+        "button_8f3E3F"
       ],
       "settings": {
-        "title": "Testimonials",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "View all",
-        "button_link": "",
+        "image": "shopify:\/\/shop_images\/stacked-bracelets.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 4,
-        "padding_bottom": 12
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     },
     "ss_featured_review_slider_BaD6iX": {
@@ -446,55 +311,6 @@
         "border_radius": 32,
         "font_size": 20,
         "custom_classes": ""
-      }
-    },
-    "custom_liquid_ddMUEK": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div data-review-quote-slider-target><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collection_list_BGXjBj": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_wGKBnJ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sale-1"
-          }
-        },
-        "featured_collection_jMCxzP": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_RbFaEL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_wGKBnJ",
-        "featured_collection_jMCxzP",
-        "featured_collection_RbFaEL"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "ss_instafeed_2_Vg7DJA": {
@@ -607,26 +423,17 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "gp_global_section_497095183448408969_wUHGR9": {
-      "type": "gp-global-section-497095183448408969",
-      "settings": {
-      }
     }
   },
   "order": [
     "image_banner",
     "collection_list_t8UN7r",
+    "gp_global_section_497095183448408969_wUHGR9",
     "featured_collection",
-    "rich_text_wQytDN",
-    "ss_feature_1_8tbjEa",
     "image_with_text_pRYCD4",
     "image_with_text_aXtH7z",
-    "multicolumn_4hNrwx",
+    "image_with_text_eAVxAg",
     "ss_featured_review_slider_BaD6iX",
-    "custom_liquid_ddMUEK",
-    "collection_list_BGXjBj",
-    "ss_instafeed_2_Vg7DJA",
-    "gp_global_section_497095183448408969_wUHGR9"
+    "ss_instafeed_2_Vg7DJA"
   ]
 }
