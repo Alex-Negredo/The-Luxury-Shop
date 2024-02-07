@@ -190,21 +190,21 @@
         "heading_d8eDVU": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>Our Products<\/strong>",
             "heading_size": "h1"
           }
         },
         "text_H8iDYY": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet consectetur. Duis ultrices mi feugiat vel egestas quis turpis eu odio. Feugiat aliquam arcu dui amet sed euismod interdum. Euismod eget interdum nec lacus etiam sapien volutpat.<\/p>",
             "text_style": "body"
           }
         },
         "button_zmxG9G": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Products",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -216,57 +216,10 @@
         "button_zmxG9G"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/modern-jewelry-and-accessories-on-display.jpg",
+        "image": "shopify:\/\/shop_images\/07.png",
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
-    "image_with_text_eAVxAg": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_MWLbhd": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_eQjjgp": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_8f3E3F": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_MWLbhd",
-        "text_eQjjgp",
-        "button_8f3E3F"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/stacked-bracelets.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -438,7 +391,6 @@
     "gp_global_section_499542345570583325_FYnfTH",
     "image_with_text_pRYCD4",
     "image_with_text_aXtH7z",
-    "image_with_text_eAVxAg",
     "ss_featured_review_slider_BaD6iX",
     "ss_instafeed_2_Vg7DJA"
   ]
