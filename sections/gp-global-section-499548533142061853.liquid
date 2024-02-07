@@ -1,8 +1,46 @@
 
   {% render 'gp-head', isThemeSection: true %}
   
+      <style>
+        @font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGaV2Q.woff) format('woff');
+}
+/* hebrew */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGSV2YOrrM95Dylg.woff) format('woff');
+  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGiV2YOrrM95Dylg.woff) format('woff');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/assistant/v19/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGaV2YOrrM95Dw.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+      </style>
+    
   <style>
-    .gps-499548533142061853 .relative{position:relative}.gps-499548533142061853 .mx-auto{margin-left:auto;margin-right:auto}.gps-499548533142061853 .mb-0{margin-bottom:0}.gps-499548533142061853 .flex{display:flex}.gps-499548533142061853 .grid{display:grid}.gps-499548533142061853 .max-w-full{max-width:100%}.gps-499548533142061853 .flex-col{flex-direction:column}.gps-499548533142061853 .gap-y-0{row-gap:0}.gps-499548533142061853 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-499548533142061853 .duration-200{transition-duration:.2s}.gps-499548533142061853 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-499548533142061853 .\[\&_\*\]\:max-w-full *{max-width:100%}
+    .gps-499548533142061853 .g-paragraph-1{font-family:var(--g-p1-ff);font-size:var(--g-p1-size);font-style:var(--g-p1-fs);font-weight:var(--g-p1-weight);letter-spacing:var(--g-p1-ls);line-height:var(--g-p1-lh)}.gps-499548533142061853 .pointer-events-auto{pointer-events:auto}.gps-499548533142061853 .invisible{visibility:hidden}.gps-499548533142061853 .absolute{position:absolute}.gps-499548533142061853 .relative{position:relative}.gps-499548533142061853 .z-1{z-index:1}.gps-499548533142061853 .mx-auto{margin-left:auto;margin-right:auto}.gps-499548533142061853 .mb-0{margin-bottom:0}.gps-499548533142061853 .block{display:block}.gps-499548533142061853 .\!inline{display:inline!important}.gps-499548533142061853 .flex{display:flex}.gps-499548533142061853 .inline-flex{display:inline-flex}.gps-499548533142061853 .grid{display:grid}.gps-499548533142061853 .h-5{height:20px}.gps-499548533142061853 .h-full{height:100%}.gps-499548533142061853 .w-5{width:20px}.gps-499548533142061853 .w-full{width:100%}.gps-499548533142061853 .max-w-full{max-width:100%}.gps-499548533142061853 .shrink-0{flex-shrink:0}@keyframes spin{to{transform:rotate(1turn)}}.gps-499548533142061853 .animate-spin{animation:spin 1s linear infinite}.gps-499548533142061853 .flex-col{flex-direction:column}.gps-499548533142061853 .items-center{align-items:center}.gps-499548533142061853 .justify-center{justify-content:center}.gps-499548533142061853 .gap-y-0{row-gap:0}.gps-499548533142061853 .overflow-hidden{overflow:hidden}.gps-499548533142061853 .break-words{overflow-wrap:break-word}.gps-499548533142061853 .rounded-none{border-radius:0}.gps-499548533142061853 .text-g-text-3{color:var(--g-c-text-3)}.gps-499548533142061853 .no-underline{text-decoration-line:none}.gps-499548533142061853 .opacity-25{opacity:.25}.gps-499548533142061853 .opacity-75{opacity:.75}.gps-499548533142061853 .transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-499548533142061853 .duration-200{transition-duration:.2s}.gps-499548533142061853 .duration-300{transition-duration:.3s}.gps-499548533142061853 .ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-499548533142061853 .disabled\:btn-disabled:disabled{cursor:default}@media (hover:hover) and (pointer:fine){.gps-499548533142061853 .hover\:bg-g-highlight:hover{background-color:var(--g-c-highlight)}}.gps-499548533142061853 .disabled\:pointer-events-none:disabled{pointer-events:none}.gps-499548533142061853 .disabled\:opacity-30:disabled{opacity:.3}.gps-499548533142061853 .group[data-state=loading] .group-data-\[state\=loading\]\:visible{visibility:visible}.gps-499548533142061853 .group[data-state=loading] .group-data-\[state\=loading\]\:invisible{visibility:hidden}.gps-499548533142061853 .\[\&\>svg\]\:\!h-\[var\(--height-desktop\)\]>svg{height:var(--height-desktop)!important}.gps-499548533142061853 .\[\&\>svg\]\:\!w-auto>svg{width:auto!important}@media (max-width:1023px){.gps-499548533142061853 .tablet\:\[\&\>svg\]\:\!h-\[var\(--height-tablet\)\]>svg{height:var(--height-tablet)!important}}@media (max-width:767px){.gps-499548533142061853 .mobile\:\[\&\>svg\]\:\!h-\[var\(--height-mobile\)\]>svg{height:var(--height-mobile)!important}}.gps-499548533142061853 .\[\&_\*\]\:max-w-full *{max-width:100%}.gps-499548533142061853 .\[\&_p\]\:inline p{display:inline}.gps-499548533142061853 .\[\&_p\]\:whitespace-pre-line p{white-space:pre-line}.gps-499548533142061853 .\[\&_p\]\:after\:whitespace-pre-wrap p:after{content:var(--tw-content);white-space:pre-wrap}.gps-499548533142061853 .\[\&_p\]\:after\:content-\[\'\\A\'\] p:after{--tw-content:"\A";content:var(--tw-content)}
   </style>
   
       
@@ -14,15 +52,669 @@
               
     <div
       pageContext id="g1mgVpI6yn"
-        style="--pt:var(--g-s-2xl);--pb:var(--g-s-2xl);--d:grid;--d-tablet:grid;--d-mobile:grid;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        style="--pt:var(--g-s-2xl);--pb:var(--g-s-2xl);--d:grid;--d-tablet:grid;--d-mobile:grid;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:100%;--w-tablet:100%;--w-mobile:100%;--bgc:#3D3938;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
         class="g1mgVpI6yn mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
     >
     <div
       pageContext tag="Col" label="Block" type="component"
-      style="--jc:start;--d-mobile:none"
+      style="--jc:start"
       class="gs46hO2tSP relative flex flex-col"
     >
       
+      
+      
+    <div
+      pageContext parentTag="Col" id="gb5pEGWVZi"
+        style="--mb:0px;--d:grid;--d-tablet:grid;--d-mobile:grid;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--cg:32px;--pc:start;--gtc:minmax(0, 6fr) minmax(0, 6fr);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gb5pEGWVZi mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gF23Nj86jN relative flex flex-col"
+    >
+      <div
+    
+    role="presentation"
+    class="group/image gDv_8_jl1-"
+    style="--ml:80px;--mb:var(--g-s-l);--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:left"
+    >
+      <div
+        class="pointer-events-auto h-full"
+        
+        class="h-full w-full"
+        style="--shadow:none;border-radius:inherit;--ta:left"
+      >
+        <img
+    quality="70" title
+    draggable="false"
+    class="!inline h-full max-w-full flex gp_lazyload"
+    data-src="{{ "497095124644267144-ac49aed6-66b1-4653-b2c5-18c246fd30e7.svg" | asset_url }}" data-srcset="{{ '497095124644267144-ac49aed6-66b1-4653-b2c5-18c246fd30e7.svg' | asset_url }} 768w, {{ '497095124644267144-ac49aed6-66b1-4653-b2c5-18c246fd30e7.svg' | asset_url }} 1024w, {{ '497095124644267144-ac49aed6-66b1-4653-b2c5-18c246fd30e7.svg' | asset_url }} 1440w" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdj+Pr1638ACaED3/nOThIAAAAASUVORK5CYII=" width="121" height="53" alt="Alt image" priority base-src
+    sizes="100vw"
+    style="--aspect:121/53;--aspect-tablet:121/53;--aspect-mobile:121/53;--objf:cover;--h:auto;--h-tablet:auto;--h-mobile:auto;--bs:none;--bw:1px 1px 1px 1px;--bc:#000000;--radius:var(--g-radius-none);border-radius:inherit"
+  />
+      </div>
+  </div>
+    <div
+      pageContext parentTag="Col"
+        class="gkt4-1UMd3 "
+        style="--ta:left;--ml:80px;--mb:var(--g-s-l);--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object]"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:left;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:180%;--size:32px;--size-tablet:16px;--size-mobile:14px;--c:var(--g-c-text-1, text-1);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        >
+        <p>Lorem ipsum dolor sit amet consectetur. Fringilla euismod sed sem purus. Neque mauris odio diam pellentesque aliquet.&nbsp;</p>
+        </div>
+      </div>
+    </div>
+      
+      
+    <div
+      pageContext parentTag="Col" id="gKhmldholK"
+        style="--ml:80px;--mb:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--cg:32px;--pc:start;--gtc:minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto);--gtc-mobile:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gKhmldholK mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="g3gG48q3od relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"","btnLink":{"link":"","target":"_self"},"iconVisible":true,"iconSvg":"<svg height=\"20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 256 256\" fill=\"currentColor\" data-id=\"493334324042596701\">\n              <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M232,128a104.16,104.16,0,0,1-91.55,103.26,4,4,0,0,1-4.45-4V152h24a8,8,0,0,0,8-8.53,8.17,8.17,0,0,0-8.25-7.47H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,167.73,80H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0-8,8.53A8.17,8.17,0,0,0,96.27,152H120v75.28a4,4,0,0,1-4.44,4A104.15,104.15,0,0,1,24.07,124.09c2-54,45.74-97.9,99.78-100A104.12,104.12,0,0,1,232,128Z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":true}}' style="">
+  <div
+    
+    style="--mb:var(--g-s-l);--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:left"
+    class=""
+  >
+    <style>
+    .g2Q2cXjwNL.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .g2Q2cXjwNL:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="g2Q2cXjwNL" aria-label
+      data-state="idle"
+      class="g2Q2cXjwNL gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:25%;--size:25px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    <span
+        class="inline-flex shrink-0 items-center justify-center group-data-[state=loading]:invisible z-1 [&>svg]:!h-[var(--height-desktop)] [&>svg]:!w-auto tablet:[&>svg]:!h-[var(--height-tablet)] mobile:[&>svg]:!h-[var(--height-mobile)]"
+        style="--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      ><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="493334324042596701">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M232,128a104.16,104.16,0,0,1-91.55,103.26,4,4,0,0,1-4.45-4V152h24a8,8,0,0,0,8-8.53,8.17,8.17,0,0,0-8.25-7.47H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,8-8.53A8.17,8.17,0,0,0,167.73,80H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0-8,8.53A8.17,8.17,0,0,0,96.27,152H120v75.28a4,4,0,0,1-4.44,4A104.15,104.15,0,0,1,24.07,124.09c2-54,45.74-97.9,99.78-100A104.12,104.12,0,0,1,232,128Z" /></svg></span>
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div><div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gxfmuDbriH relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"","btnLink":{"link":"","target":"_self"},"iconVisible":true,"iconSvg":"<svg height=\"20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 256 256\" fill=\"currentColor\" data-id=\"493334323174048093\">\n              <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,72a24,24,0,1,1,24-24A24,24,0,0,1,128,152ZM176,20H80A60.07,60.07,0,0,0,20,80v96a60.07,60.07,0,0,0,60,60h96a60.07,60.07,0,0,0,60-60V80A60.07,60.07,0,0,0,176,20Zm36,156a36,36,0,0,1-36,36H80a36,36,0,0,1-36-36V80A36,36,0,0,1,80,44h96a36,36,0,0,1,36,36ZM196,76a16,16,0,1,1-16-16A16,16,0,0,1,196,76Z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":true}}' style="">
+  <div
+    
+    style="--mb:var(--g-s-l);--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:left"
+    class=""
+  >
+    <style>
+    .gA8AF-6L5V.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .gA8AF-6L5V:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="gA8AF-6L5V" aria-label
+      data-state="idle"
+      class="gA8AF-6L5V gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:25%;--size:25px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    <span
+        class="inline-flex shrink-0 items-center justify-center group-data-[state=loading]:invisible z-1 [&>svg]:!h-[var(--height-desktop)] [&>svg]:!w-auto tablet:[&>svg]:!h-[var(--height-tablet)] mobile:[&>svg]:!h-[var(--height-mobile)]"
+        style="--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      ><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="493334323174048093">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,72a24,24,0,1,1,24-24A24,24,0,0,1,128,152ZM176,20H80A60.07,60.07,0,0,0,20,80v96a60.07,60.07,0,0,0,60,60h96a60.07,60.07,0,0,0,60-60V80A60.07,60.07,0,0,0,176,20Zm36,156a36,36,0,0,1-36,36H80a36,36,0,0,1-36-36V80A36,36,0,0,1,80,44h96a36,36,0,0,1,36,36ZM196,76a16,16,0,1,1-16-16A16,16,0,0,1,196,76Z" /></svg></span>
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div><div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gZf6Ana_1S relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"","btnLink":{"link":"","target":"_self"},"iconVisible":true,"iconSvg":"<svg height=\"20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 256 256\" fill=\"currentColor\" data-id=\"493334324567408989\">\n              <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-72.11,61.81-48,32A4,4,0,0,1,108,160V96a4,4,0,0,1,6.22-3.33l48,32a4,4,0,0,1,0,6.66Z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":true}}' style="">
+  <div
+    
+    style="--mb:var(--g-s-l);--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:left"
+    class=""
+  >
+    <style>
+    .ghe8Z1YBRs.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .ghe8Z1YBRs:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="ghe8Z1YBRs" aria-label
+      data-state="idle"
+      class="ghe8Z1YBRs gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:25%;--size:25px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    <span
+        class="inline-flex shrink-0 items-center justify-center group-data-[state=loading]:invisible z-1 [&>svg]:!h-[var(--height-desktop)] [&>svg]:!w-auto tablet:[&>svg]:!h-[var(--height-tablet)] mobile:[&>svg]:!h-[var(--height-mobile)]"
+        style="--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      ><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="493334324567408989">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M234.33,69.52a24,24,0,0,0-14.49-16.4C185.56,39.88,131,40,128,40s-57.56-.12-91.84,13.12a24,24,0,0,0-14.49,16.4C19.08,79.5,16,97.74,16,128s3.08,48.5,5.67,58.48a24,24,0,0,0,14.49,16.41C69,215.56,120.4,216,127.34,216h1.32c6.94,0,58.37-.44,91.18-13.11a24,24,0,0,0,14.49-16.41c2.59-10,5.67-28.22,5.67-58.48S236.92,79.5,234.33,69.52Zm-72.11,61.81-48,32A4,4,0,0,1,108,160V96a4,4,0,0,1,6.22-3.33l48,32a4,4,0,0,1,0,6.66Z" /></svg></span>
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div><div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gSPG8Ji0HD relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"","btnLink":{"link":"","target":"_self"},"iconVisible":true,"iconSvg":"<svg height=\"20\" width=\"20\" xmlns=\"http://www.w3.org/2000/svg\"  viewBox=\"0 0 256 256\" fill=\"currentColor\" data-id=\"493334324562755933\">\n              <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":true}}' style="">
+  <div
+    
+    style="--mb:var(--g-s-l);--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:left"
+    class=""
+  >
+    <style>
+    .g8wR1LXKP3.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .g8wR1LXKP3:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="g8wR1LXKP3" aria-label
+      data-state="idle"
+      class="g8wR1LXKP3 gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:Auto;--w-tablet:Auto;--w-mobile:Auto;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:25%;--size:25px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    <span
+        class="inline-flex shrink-0 items-center justify-center group-data-[state=loading]:invisible z-1 [&>svg]:!h-[var(--height-desktop)] [&>svg]:!w-auto tablet:[&>svg]:!h-[var(--height-tablet)] mobile:[&>svg]:!h-[var(--height-mobile)]"
+        style="--height-desktop:1em;--height-tablet:1em;--height-mobile:1em"
+      ><svg height="20" width="20" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 256 256" fill="currentColor" data-id="493334324562755933">
+              <path fill="currentColor" strokeLinecap="round" strokeLinejoin="round" fill="currentColor" d="M245.66,77.66l-29.9,29.9C209.72,177.58,150.67,232,80,232c-14.52,0-26.49-2.3-35.58-6.84-7.33-3.67-10.33-7.6-11.08-8.72a8,8,0,0,1,3.85-11.93c.26-.1,24.24-9.31,39.47-26.84a110.93,110.93,0,0,1-21.88-24.2c-12.4-18.41-26.28-50.39-22-98.18a8,8,0,0,1,13.65-4.92c.35.35,33.28,33.1,73.54,43.72V88a47.87,47.87,0,0,1,14.36-34.3A46.87,46.87,0,0,1,168.1,40a48.66,48.66,0,0,1,41.47,24H240a8,8,0,0,1,5.66,13.66Z" /></svg></span>
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div>
+    </div>
+  
+    
+    </div><div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="gMo4LWHx-q relative flex flex-col"
+    >
+      
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Home","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":false}}' style="">
+  <div
+    
+    style="--mt:12px;--mb:12px;--mr:80px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:right"
+    class=""
+  >
+    <style>
+    .g9FIPQM_Ue.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .g9FIPQM_Ue:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="g9FIPQM_Ue" aria-label="Home"
+      data-state="idle"
+      class="g9FIPQM_Ue gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:NaNAutopxpx;--w-tablet:NaNAutopxpx;--w-mobile:NaNAutopxpx;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:100%;--size:32px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Home
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Products","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":false}}' style="">
+  <div
+    
+    style="--mt:12px;--mb:12px;--mr:80px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:right"
+    class=""
+  >
+    <style>
+    .ggyxZBOKrD.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .ggyxZBOKrD:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="ggyxZBOKrD" aria-label="Products"
+      data-state="idle"
+      class="ggyxZBOKrD gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:NaNAutopxpx;--w-tablet:NaNAutopxpx;--w-mobile:NaNAutopxpx;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:100%;--size:32px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Products
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"About Us","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":false}}' style="">
+  <div
+    
+    style="--mt:12px;--mb:12px;--mr:80px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:right"
+    class=""
+  >
+    <style>
+    .gdUaWq-UeG.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .gdUaWq-UeG:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="gdUaWq-UeG" aria-label="About Us"
+      data-state="idle"
+      class="gdUaWq-UeG gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:NaNAutopxpx;--w-tablet:NaNAutopxpx;--w-mobile:NaNAutopxpx;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:100%;--size:32px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        About Us
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+  <script src="https://d2ls1pfffhvy22.cloudfront.net/assets/gp-button.js" defer="defer"></script>
+  <gp-button gp-data='{"setting":{"label":"Contact","btnLink":{"link":"","target":"_self"},"iconVisible":false,"iconSvg":"<svg style=\"width: 100%; height: 100%\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" fill=\"currentColor\"> <path fill=\"currentColor\" strokeLinecap=\"round\" strokeLinejoin=\"round\" fill=\"currentColor\" d=\"M115.584 494.176c-12.352 6.336 -26.368 -4.768 -23.872 -18.944l26.56 -151.36L5.536 216.48c-10.528 -10.048 -5.056 -28.416 9.056 -30.4l156.736 -22.272L241.216 25.344c6.304 -12.48 23.36 -12.48 29.664 0l69.888 138.464 156.736 22.272c14.112 1.984 19.584 20.352 9.024 30.4l-112.704 107.392 26.56 151.36c2.496 14.176 -11.52 25.28 -23.872 18.944L256 421.984l-140.448 72.192z\" /></svg>","iconAlign":"left","htmlType":"button","disabled":false,"shouldClearSpace":false}}' style="">
+  <div
+    
+    style="--mt:12px;--mb:12px;--mr:80px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--ta:right"
+    class=""
+  >
+    <style>
+    .gFX4lLfWqh.gp-button-base::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      pointer-events: none;
+      border-style: none;
+  border-width: 1px 1px 1px 1px;
+  
+  
+      border-radius: var(--g-radius-small);
+    }
+
+    .gFX4lLfWqh:hover::before {
+      
+      
+    }
+  </style>
+    <button
+      type="button" data-id="gFX4lLfWqh" aria-label="Contact"
+      data-state="idle"
+      class="gFX4lLfWqh gp-button-base rounded-none max-w-full relative group inline-flex items-center justify-center no-underline transition-colors duration-300 disabled:btn-disabled disabled:opacity-30 disabled:pointer-events-none hover:bg-g-highlight text-g-text-3"
+      style="--bg:#3D3938;--hvr-bg:var(--g-c-highlight, highlight);--radius:var(--g-radius-small);--shadow:none;--c:var(--g-c-text-3, text-3);--w:NaNAutopxpx;--w-tablet:NaNAutopxpx;--w-mobile:NaNAutopxpx;--h:Auto;--h-tablet:Auto;--h-mobile:Auto;--pl:0px;--pr:0px;--pt:0px;--pb:0px;--tt:default;--ff:var(--g-font-Assistant, Assistant);--weight:400;--lh:100%;--size:32px;--size-tablet:16px;--size-mobile:14px"
+    >
+        <svg
+          class="invisible absolute h-5 w-5 animate-spin group-data-[state=loading]:visible"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+        >
+          <circle
+            class="opacity-25"
+            cx="12"
+            cy="12"
+            r="10"
+            stroke="currentColor"
+            stroke-width="4"
+          ></circle>
+          <path
+            class="opacity-75"
+            fill="currentColor"
+            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+          ></path>
+        </svg>
+
+    
+      <span
+        class="break-words group-data-[state=loading]:invisible [&_p]:whitespace-pre-line z-1 h-full flex items-center overflow-hidden "
+        style="--tt:default"
+      >
+        Contact
+      </span>
+    </button>
+  </div>
+  </gp-button>
+  
+    </div>
+    </div>
+  
+    
+      
+      
+    <div
+      pageContext parentTag="Col" id="gHrQ_lEXMD"
+        style="--mb:var(--g-s-l);--d:grid;--d-tablet:grid;--d-mobile:grid;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object];--cg:32px;--pc:start;--gtc:minmax(0, 12fr);--w:var(--g-ct-w, 1200px);--w-tablet:var(--g-ct-w, 100%);--w-mobile:var(--g-ct-w, 100%);--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        class="gHrQ_lEXMD mx-auto mb-0 grid max-w-full gap-y-0 transition-colors duration-200 ease-in-out [&_*]:max-w-full"
+    >
+    <div
+      pageContext tag="Col" label="Block" type="component"
+      style="--jc:start"
+      class="goAAv2b251 relative flex flex-col"
+    >
+      
+    <div
+      pageContext parentTag="Col"
+        class="gr5b_TrixX "
+        style="--ta:left;--mb:0px;--d:block;--d-tablet:block;--d-mobile:block;--b:solid;--bc:#121212;--bw:0px;--radius:var(--g-radius-none);--shadow:none;--op:100%;--animation:[object Object]"
+      >
+      <div class="flex" style="--jc:left">
+        <div
+          data-gp-text
+          class="[&_p]:inline [&_p]:after:whitespace-pre-wrap [&_p]:after:content-['\A'] g-paragraph-1 gp-text"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--c:var(--g-c-text-1, text-1);word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll"
+        >
+        <p>© Inspire | Template by Studio Website Design | Photos from unsplash.com</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    
     </div>
     </div>
   
@@ -34,11 +726,11 @@
     
     "presets": [
       {
-        "name": "Section - Feb 6 21:28:47"
+        "name": "Footer"
       }
     ],
     
-    "name": "Section - Feb 6 21:28:47",
+    "name": "Footer",
     "tag": "section",
     "class": "gps-499548533142061853 gps gpsi",
     "settings": [
