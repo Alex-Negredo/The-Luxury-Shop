@@ -167,7 +167,7 @@
         "image": "shopify:\/\/shop_images\/stacked-bracelets.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -423,6 +423,11 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "gp_global_section_497095183448408969_4pirtz": {
+      "type": "gp-global-section-497095183448408969",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -434,6 +439,7 @@
     "image_with_text_aXtH7z",
     "image_with_text_eAVxAg",
     "ss_featured_review_slider_BaD6iX",
-    "ss_instafeed_2_Vg7DJA"
+    "ss_instafeed_2_Vg7DJA",
+    "gp_global_section_497095183448408969_4pirtz"
   ]
 }
