@@ -132,6 +132,11 @@
         "padding_bottom": 0
       }
     },
+    "gp_global_section_499542345570583325_FYnfTH": {
+      "type": "gp-global-section-499542345570583325",
+      "settings": {
+      }
+    },
     "image_with_text_pRYCD4": {
       "type": "image-with-text",
       "blocks": {
@@ -423,11 +428,6 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "gp_global_section_499542345570583325_FYnfTH": {
-      "type": "gp-global-section-499542345570583325",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -435,11 +435,11 @@
     "collection_list_t8UN7r",
     "gp_global_section_497095183448408969_wUHGR9",
     "featured_collection",
+    "gp_global_section_499542345570583325_FYnfTH",
     "image_with_text_pRYCD4",
     "image_with_text_aXtH7z",
     "image_with_text_eAVxAg",
     "ss_featured_review_slider_BaD6iX",
-    "ss_instafeed_2_Vg7DJA",
-    "gp_global_section_499542345570583325_FYnfTH"
+    "ss_instafeed_2_Vg7DJA"
   ]
 }
