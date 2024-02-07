@@ -271,6 +271,11 @@
         "custom_classes": ""
       }
     },
+    "gp_global_section_499546654144201958_jc3XFV": {
+      "type": "gp-global-section-499546654144201958",
+      "settings": {
+      }
+    },
     "ss_instafeed_2_Vg7DJA": {
       "type": "ss-instafeed-2",
       "blocks": {
@@ -392,6 +397,7 @@
     "image_with_text_pRYCD4",
     "image_with_text_aXtH7z",
     "ss_featured_review_slider_BaD6iX",
+    "gp_global_section_499546654144201958_jc3XFV",
     "ss_instafeed_2_Vg7DJA"
   ]
 }
